@@ -1,0 +1,42 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+}
+
+
+
+
+.card1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+    gap: 40px;
+    background-color: pink;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .card p {
+    margin: 0;
+  }
+
+
+.card-component{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
